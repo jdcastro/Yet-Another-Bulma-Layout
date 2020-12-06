@@ -1,0 +1,24 @@
+// ========== Color ========== //
+$black: #0a0a0a !default;
+$white: #fefefe !default;
+$light-gray: #e6e6e6 !default;
+$gray: #cacaca !default;
+$dark-gray: #8a8a8a !default;
+$global-color: #5f5c5c; 
+
+// Font family of the site. //
+$global-font-family: 'Simonetta', cursive;
+// 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default; 
+
+// === seleccion == //
+$bg-selecction: #b3d4fc; 
+$text-color-selecction: #860000d4;
+
+// ==== Fuente para el menú ==== //
+@import url('https://fonts.googleapis.com/css?family=Oregano|Roboto&display=swap');
+$menu-font: 'Oregano', cursive;
+$spinner-bg-color: #00a2b2;
+
+// === body == //
+$wrapper-width: 1026px;
+$footer-container-bg-color: #616161;

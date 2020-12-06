@@ -83,7 +83,7 @@
 }
 
 .delete::before, .modal-close::before, .delete::after, .modal-close::after {
-  background-color: white;
+  background-color: #fefefe;
   content: "";
   display: block;
   left: 50%;
@@ -334,7 +334,7 @@ th:not([align]) {
 }
 
 html {
-  background-color: white;
+  background-color: #fefefe;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -473,7 +473,7 @@ table th {
 
 /* Bulma Elements */
 .box {
-  background-color: white;
+  background-color: #fefefe;
   border-radius: 6px;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
@@ -493,7 +493,7 @@ a.box:active {
 }
 
 .button {
-  background-color: white;
+  background-color: #fefefe;
   border-color: #dbdbdb;
   border-width: 1px;
   color: #363636;
@@ -579,13 +579,13 @@ fieldset[disabled] .button.is-text {
 }
 
 .button.is-white {
-  background-color: white;
+  background-color: #fefefe;
   border-color: transparent;
   color: #0a0a0a;
 }
 
 .button.is-white:hover, .button.is-white.is-hovered {
-  background-color: #f9f9f9;
+  background-color: #f8f8f8;
   border-color: transparent;
   color: #0a0a0a;
 }
@@ -596,19 +596,19 @@ fieldset[disabled] .button.is-text {
 }
 
 .button.is-white:focus:not(:active), .button.is-white.is-focused:not(:active) {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(254, 254, 254, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(254, 254, 254, 0.25);
 }
 
 .button.is-white:active, .button.is-white.is-active {
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
   border-color: transparent;
   color: #0a0a0a;
 }
 
 .button.is-white[disabled],
 fieldset[disabled] .button.is-white {
-  background-color: white;
+  background-color: #fefefe;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -616,7 +616,7 @@ fieldset[disabled] .button.is-white {
 
 .button.is-white.is-inverted {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-white.is-inverted:hover, .button.is-white.is-inverted.is-hovered {
@@ -629,7 +629,7 @@ fieldset[disabled] .button.is-white.is-inverted {
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-white.is-loading::after {
@@ -638,18 +638,18 @@ fieldset[disabled] .button.is-white.is-inverted {
 
 .button.is-white.is-outlined {
   background-color: transparent;
-  border-color: white;
-  color: white;
+  border-color: #fefefe;
+  color: #fefefe;
 }
 
 .button.is-white.is-outlined:hover, .button.is-white.is-outlined.is-hovered, .button.is-white.is-outlined:focus, .button.is-white.is-outlined.is-focused {
-  background-color: white;
-  border-color: white;
+  background-color: #fefefe;
+  border-color: #fefefe;
   color: #0a0a0a;
 }
 
 .button.is-white.is-outlined.is-loading::after {
-  border-color: transparent transparent white white !important;
+  border-color: transparent transparent #fefefe #fefefe !important;
 }
 
 .button.is-white.is-outlined.is-loading:hover::after, .button.is-white.is-outlined.is-loading.is-hovered::after, .button.is-white.is-outlined.is-loading:focus::after, .button.is-white.is-outlined.is-loading.is-focused::after {
@@ -659,10 +659,10 @@ fieldset[disabled] .button.is-white.is-inverted {
 .button.is-white.is-outlined[disabled],
 fieldset[disabled] .button.is-white.is-outlined {
   background-color: transparent;
-  border-color: white;
+  border-color: #fefefe;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-white.is-inverted.is-outlined {
@@ -673,11 +673,11 @@ fieldset[disabled] .button.is-white.is-outlined {
 
 .button.is-white.is-inverted.is-outlined:hover, .button.is-white.is-inverted.is-outlined.is-hovered, .button.is-white.is-inverted.is-outlined:focus, .button.is-white.is-inverted.is-outlined.is-focused {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-white.is-inverted.is-outlined.is-loading:hover::after, .button.is-white.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-white.is-inverted.is-outlined.is-loading:focus::after, .button.is-white.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent white white !important;
+  border-color: transparent transparent #fefefe #fefefe !important;
 }
 
 .button.is-white.is-inverted.is-outlined[disabled],
@@ -692,18 +692,18 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
 .button.is-black {
   background-color: #0a0a0a;
   border-color: transparent;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-black:hover, .button.is-black.is-hovered {
   background-color: #040404;
   border-color: transparent;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-black:focus, .button.is-black.is-focused {
   border-color: transparent;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-black:focus:not(:active), .button.is-black.is-focused:not(:active) {
@@ -714,7 +714,7 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
 .button.is-black:active, .button.is-black.is-active {
   background-color: black;
   border-color: transparent;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-black[disabled],
@@ -726,17 +726,17 @@ fieldset[disabled] .button.is-black {
 }
 
 .button.is-black.is-inverted {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
 .button.is-black.is-inverted:hover, .button.is-black.is-inverted.is-hovered {
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
 }
 
 .button.is-black.is-inverted[disabled],
 fieldset[disabled] .button.is-black.is-inverted {
-  background-color: white;
+  background-color: #fefefe;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -744,7 +744,7 @@ fieldset[disabled] .button.is-black.is-inverted {
 }
 
 .button.is-black.is-loading::after {
-  border-color: transparent transparent white white !important;
+  border-color: transparent transparent #fefefe #fefefe !important;
 }
 
 .button.is-black.is-outlined {
@@ -756,7 +756,7 @@ fieldset[disabled] .button.is-black.is-inverted {
 .button.is-black.is-outlined:hover, .button.is-black.is-outlined.is-hovered, .button.is-black.is-outlined:focus, .button.is-black.is-outlined.is-focused {
   background-color: #0a0a0a;
   border-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-black.is-outlined.is-loading::after {
@@ -764,7 +764,7 @@ fieldset[disabled] .button.is-black.is-inverted {
 }
 
 .button.is-black.is-outlined.is-loading:hover::after, .button.is-black.is-outlined.is-loading.is-hovered::after, .button.is-black.is-outlined.is-loading:focus::after, .button.is-black.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent white white !important;
+  border-color: transparent transparent #fefefe #fefefe !important;
 }
 
 .button.is-black.is-outlined[disabled],
@@ -778,12 +778,12 @@ fieldset[disabled] .button.is-black.is-outlined {
 
 .button.is-black.is-inverted.is-outlined {
   background-color: transparent;
-  border-color: white;
-  color: white;
+  border-color: #fefefe;
+  color: #fefefe;
 }
 
 .button.is-black.is-inverted.is-outlined:hover, .button.is-black.is-inverted.is-outlined.is-hovered, .button.is-black.is-inverted.is-outlined:focus, .button.is-black.is-inverted.is-outlined.is-focused {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
@@ -794,10 +794,10 @@ fieldset[disabled] .button.is-black.is-outlined {
 .button.is-black.is-inverted.is-outlined[disabled],
 fieldset[disabled] .button.is-black.is-inverted.is-outlined {
   background-color: transparent;
-  border-color: white;
+  border-color: #fefefe;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: white;
+  color: #fefefe;
 }
 
 .button.is-light {
@@ -1809,7 +1809,7 @@ fieldset[disabled] .button.is-danger.is-inverted.is-outlined {
 
 .button[disabled],
 fieldset[disabled] .button {
-  background-color: white;
+  background-color: #fefefe;
   border-color: #dbdbdb;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2384,7 +2384,7 @@ fieldset[disabled] .button {
 
 .notification code,
 .notification pre {
-  background: white;
+  background: #fefefe;
 }
 
 .notification pre code {
@@ -2404,13 +2404,13 @@ fieldset[disabled] .button {
 }
 
 .notification.is-white {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
 .notification.is-black {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .notification.is-light {
@@ -2513,20 +2513,20 @@ fieldset[disabled] .button {
 }
 
 .progress.is-white::-webkit-progress-value {
-  background-color: white;
+  background-color: #fefefe;
 }
 
 .progress.is-white::-moz-progress-bar {
-  background-color: white;
+  background-color: #fefefe;
 }
 
 .progress.is-white::-ms-fill {
-  background-color: white;
+  background-color: #fefefe;
 }
 
 .progress.is-white:indeterminate {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, white), color-stop(30%, #ededed));
-  background-image: linear-gradient(to right, white 30%, #ededed 30%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #fefefe), color-stop(30%, #ededed));
+  background-image: linear-gradient(to right, #fefefe 30%, #ededed 30%);
 }
 
 .progress.is-black::-webkit-progress-value {
@@ -2742,7 +2742,7 @@ fieldset[disabled] .button {
 }
 
 .table {
-  background-color: white;
+  background-color: #fefefe;
   color: #363636;
 }
 
@@ -2756,8 +2756,8 @@ fieldset[disabled] .button {
 
 .table td.is-white,
 .table th.is-white {
-  background-color: white;
-  border-color: white;
+  background-color: #fefefe;
+  border-color: #fefefe;
   color: #0a0a0a;
 }
 
@@ -2765,7 +2765,7 @@ fieldset[disabled] .button {
 .table th.is-black {
   background-color: #0a0a0a;
   border-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .table td.is-light,
@@ -3048,13 +3048,13 @@ fieldset[disabled] .button {
 }
 
 .tag:not(body).is-white {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
 .tag:not(body).is-black {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .tag:not(body).is-light {
@@ -3362,7 +3362,7 @@ a.tag:hover {
 
 /* Bulma Form */
 .input, .textarea, .select select {
-  background-color: white;
+  background-color: #fefefe;
   border-color: #dbdbdb;
   border-radius: 4px;
   color: #363636;
@@ -3451,12 +3451,12 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 }
 
 .is-white.input, .is-white.textarea {
-  border-color: white;
+  border-color: #fefefe;
 }
 
 .is-white.input:focus, .is-white.textarea:focus, .is-white.is-focused.input, .is-white.is-focused.textarea, .is-white.input:active, .is-white.textarea:active, .is-white.is-active.input, .is-white.is-active.textarea {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(254, 254, 254, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(254, 254, 254, 0.25);
 }
 
 .is-black.input, .is-black.textarea {
@@ -3684,20 +3684,20 @@ fieldset[disabled] .select select:hover {
 }
 
 .select.is-white:not(:hover)::after {
-  border-color: white;
+  border-color: #fefefe;
 }
 
 .select.is-white select {
-  border-color: white;
+  border-color: #fefefe;
 }
 
 .select.is-white select:hover, .select.is-white select.is-hovered {
-  border-color: #f2f2f2;
+  border-color: #f1f1f1;
 }
 
 .select.is-white select:focus, .select.is-white select.is-focused, .select.is-white select:active, .select.is-white select.is-active {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(254, 254, 254, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(254, 254, 254, 0.25);
 }
 
 .select.is-black:not(:hover)::after {
@@ -3913,26 +3913,26 @@ fieldset[disabled] .select select:hover {
 }
 
 .file.is-white .file-cta {
-  background-color: white;
+  background-color: #fefefe;
   border-color: transparent;
   color: #0a0a0a;
 }
 
 .file.is-white:hover .file-cta, .file.is-white.is-hovered .file-cta {
-  background-color: #f9f9f9;
+  background-color: #f8f8f8;
   border-color: transparent;
   color: #0a0a0a;
 }
 
 .file.is-white:focus .file-cta, .file.is-white.is-focused .file-cta {
   border-color: transparent;
-  -webkit-box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.25);
-          box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 0.5em rgba(254, 254, 254, 0.25);
+          box-shadow: 0 0 0.5em rgba(254, 254, 254, 0.25);
   color: #0a0a0a;
 }
 
 .file.is-white:active .file-cta, .file.is-white.is-active .file-cta {
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
   border-color: transparent;
   color: #0a0a0a;
 }
@@ -3940,26 +3940,26 @@ fieldset[disabled] .select select:hover {
 .file.is-black .file-cta {
   background-color: #0a0a0a;
   border-color: transparent;
-  color: white;
+  color: #fefefe;
 }
 
 .file.is-black:hover .file-cta, .file.is-black.is-hovered .file-cta {
   background-color: #040404;
   border-color: transparent;
-  color: white;
+  color: #fefefe;
 }
 
 .file.is-black:focus .file-cta, .file.is-black.is-focused .file-cta {
   border-color: transparent;
   -webkit-box-shadow: 0 0 0.5em rgba(10, 10, 10, 0.25);
           box-shadow: 0 0 0.5em rgba(10, 10, 10, 0.25);
-  color: white;
+  color: #fefefe;
 }
 
 .file.is-black:active .file-cta, .file.is-black.is-active .file-cta {
   background-color: black;
   border-color: transparent;
-  color: white;
+  color: #fefefe;
 }
 
 .file.is-light .file-cta {
@@ -4403,7 +4403,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .help.is-white {
-  color: white;
+  color: #fefefe;
 }
 
 .help.is-black {
@@ -4870,7 +4870,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .card {
-  background-color: white;
+  background-color: #fefefe;
   border-radius: 0.25rem;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
@@ -5011,7 +5011,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .dropdown-content {
-  background-color: white;
+  background-color: #fefefe;
   border-radius: 4px;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
@@ -5378,16 +5378,16 @@ button.dropdown-item.is-active {
 }
 
 .message.is-white {
-  background-color: white;
+  background-color: #fefefe;
 }
 
 .message.is-white .message-header {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
 .message.is-white .message-body {
-  border-color: white;
+  border-color: #fefefe;
 }
 
 .message.is-black {
@@ -5396,7 +5396,7 @@ button.dropdown-item.is-active {
 
 .message.is-black .message-header {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .message.is-black .message-body {
@@ -5558,7 +5558,7 @@ button.dropdown-item.is-active {
 
 .message-body code,
 .message-body pre {
-  background-color: white;
+  background-color: #fefefe;
 }
 
 .message-body pre code {
@@ -5679,7 +5679,7 @@ button.dropdown-item.is-active {
 
 .modal-card-body {
   -webkit-overflow-scrolling: touch;
-  background-color: white;
+  background-color: #fefefe;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -5690,14 +5690,14 @@ button.dropdown-item.is-active {
 }
 
 .navbar {
-  background-color: white;
+  background-color: #fefefe;
   min-height: 3.25rem;
   position: relative;
   z-index: 30;
 }
 
 .navbar.is-white {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
@@ -5710,7 +5710,7 @@ button.dropdown-item.is-active {
 .navbar.is-white .navbar-brand .navbar-link:focus,
 .navbar.is-white .navbar-brand .navbar-link:hover,
 .navbar.is-white .navbar-brand .navbar-link.is-active {
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
   color: #0a0a0a;
 }
 
@@ -5739,7 +5739,7 @@ button.dropdown-item.is-active {
   .navbar.is-white .navbar-end .navbar-link:focus,
   .navbar.is-white .navbar-end .navbar-link:hover,
   .navbar.is-white .navbar-end .navbar-link.is-active {
-    background-color: #f2f2f2;
+    background-color: #f1f1f1;
     color: #0a0a0a;
   }
   .navbar.is-white .navbar-start .navbar-link::after,
@@ -5749,23 +5749,23 @@ button.dropdown-item.is-active {
   .navbar.is-white .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-white .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-white .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #f2f2f2;
+    background-color: #f1f1f1;
     color: #0a0a0a;
   }
   .navbar.is-white .navbar-dropdown a.navbar-item.is-active {
-    background-color: white;
+    background-color: #fefefe;
     color: #0a0a0a;
   }
 }
 
 .navbar.is-black {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .navbar.is-black .navbar-brand > .navbar-item,
 .navbar.is-black .navbar-brand .navbar-link {
-  color: white;
+  color: #fefefe;
 }
 
 .navbar.is-black .navbar-brand > a.navbar-item:focus, .navbar.is-black .navbar-brand > a.navbar-item:hover, .navbar.is-black .navbar-brand > a.navbar-item.is-active,
@@ -5773,15 +5773,15 @@ button.dropdown-item.is-active {
 .navbar.is-black .navbar-brand .navbar-link:hover,
 .navbar.is-black .navbar-brand .navbar-link.is-active {
   background-color: black;
-  color: white;
+  color: #fefefe;
 }
 
 .navbar.is-black .navbar-brand .navbar-link::after {
-  border-color: white;
+  border-color: #fefefe;
 }
 
 .navbar.is-black .navbar-burger {
-  color: white;
+  color: #fefefe;
 }
 
 @media screen and (min-width: 1024px) {
@@ -5789,7 +5789,7 @@ button.dropdown-item.is-active {
   .navbar.is-black .navbar-start .navbar-link,
   .navbar.is-black .navbar-end > .navbar-item,
   .navbar.is-black .navbar-end .navbar-link {
-    color: white;
+    color: #fefefe;
   }
   .navbar.is-black .navbar-start > a.navbar-item:focus, .navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active,
   .navbar.is-black .navbar-start .navbar-link:focus,
@@ -5802,21 +5802,21 @@ button.dropdown-item.is-active {
   .navbar.is-black .navbar-end .navbar-link:hover,
   .navbar.is-black .navbar-end .navbar-link.is-active {
     background-color: black;
-    color: white;
+    color: #fefefe;
   }
   .navbar.is-black .navbar-start .navbar-link::after,
   .navbar.is-black .navbar-end .navbar-link::after {
-    border-color: white;
+    border-color: #fefefe;
   }
   .navbar.is-black .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-black .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-black .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: black;
-    color: white;
+    color: #fefefe;
   }
   .navbar.is-black .navbar-dropdown a.navbar-item.is-active {
     background-color: #0a0a0a;
-    color: white;
+    color: #fefefe;
   }
 }
 
@@ -6576,7 +6576,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     display: none;
   }
   .navbar-menu {
-    background-color: white;
+    background-color: #fefefe;
     -webkit-box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
             box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
@@ -6719,7 +6719,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     margin-left: auto;
   }
   .navbar-dropdown {
-    background-color: white;
+    background-color: #fefefe;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: 2px solid #dbdbdb;
@@ -7049,21 +7049,21 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 
 .panel.is-white .panel-heading {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
 .panel.is-white .panel-tabs a.is-active {
-  border-bottom-color: white;
+  border-bottom-color: #fefefe;
 }
 
 .panel.is-white .panel-block.is-active .panel-icon {
-  color: white;
+  color: #fefefe;
 }
 
 .panel.is-black .panel-heading {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .panel.is-black .panel-tabs a.is-active {
@@ -7421,7 +7421,7 @@ label.panel-block:hover {
 }
 
 .tabs.is-boxed li.is-active a {
-  background-color: white;
+  background-color: #fefefe;
   border-color: #dbdbdb;
   border-bottom-color: transparent !important;
 }
@@ -9774,15 +9774,15 @@ label.panel-block:hover {
 
 /* Bulma Helpers */
 .has-text-white {
-  color: white !important;
+  color: #fefefe !important;
 }
 
 a.has-text-white:hover, a.has-text-white:focus {
-  color: #e6e6e6 !important;
+  color: #e5e5e5 !important;
 }
 
 .has-background-white {
-  background-color: white !important;
+  background-color: #fefefe !important;
 }
 
 .has-text-black {
@@ -11820,7 +11820,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-white {
-  background-color: white;
+  background-color: #fefefe;
   color: #0a0a0a;
 }
 
@@ -11844,7 +11844,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 @media screen and (max-width: 1023px) {
   .hero.is-white .navbar-menu {
-    background-color: white;
+    background-color: #fefefe;
   }
 }
 
@@ -11856,7 +11856,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .hero.is-white a.navbar-item:hover, .hero.is-white a.navbar-item.is-active,
 .hero.is-white .navbar-link:hover,
 .hero.is-white .navbar-link.is-active {
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
   color: #0a0a0a;
 }
 
@@ -11884,22 +11884,22 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .hero.is-white .tabs.is-boxed li.is-active a, .hero.is-white .tabs.is-boxed li.is-active a:hover, .hero.is-white .tabs.is-toggle li.is-active a, .hero.is-white .tabs.is-toggle li.is-active a:hover {
   background-color: #0a0a0a;
   border-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .hero.is-white.is-bold {
-  background-image: linear-gradient(141deg, #e6e6e6 0%, white 71%, white 100%);
+  background-image: linear-gradient(141deg, #e7e2e3 0%, #fefefe 71%, white 100%);
 }
 
 @media screen and (max-width: 768px) {
   .hero.is-white.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #e6e6e6 0%, white 71%, white 100%);
+    background-image: linear-gradient(141deg, #e7e2e3 0%, #fefefe 71%, white 100%);
   }
 }
 
 .hero.is-black {
   background-color: #0a0a0a;
-  color: white;
+  color: #fefefe;
 }
 
 .hero.is-black a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
@@ -11908,16 +11908,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-black .title {
-  color: white;
+  color: #fefefe;
 }
 
 .hero.is-black .subtitle {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(254, 254, 254, 0.9);
 }
 
 .hero.is-black .subtitle a:not(.button),
 .hero.is-black .subtitle strong {
-  color: white;
+  color: #fefefe;
 }
 
 @media screen and (max-width: 1023px) {
@@ -11928,18 +11928,18 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .hero.is-black .navbar-item,
 .hero.is-black .navbar-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(254, 254, 254, 0.7);
 }
 
 .hero.is-black a.navbar-item:hover, .hero.is-black a.navbar-item.is-active,
 .hero.is-black .navbar-link:hover,
 .hero.is-black .navbar-link.is-active {
   background-color: black;
-  color: white;
+  color: #fefefe;
 }
 
 .hero.is-black .tabs a {
-  color: white;
+  color: #fefefe;
   opacity: 0.9;
 }
 
@@ -11952,7 +11952,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-black .tabs.is-boxed a, .hero.is-black .tabs.is-toggle a {
-  color: white;
+  color: #fefefe;
 }
 
 .hero.is-black .tabs.is-boxed a:hover, .hero.is-black .tabs.is-toggle a:hover {
@@ -11960,8 +11960,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-black .tabs.is-boxed li.is-active a, .hero.is-black .tabs.is-boxed li.is-active a:hover, .hero.is-black .tabs.is-toggle li.is-active a, .hero.is-black .tabs.is-toggle li.is-active a:hover {
-  background-color: white;
-  border-color: white;
+  background-color: #fefefe;
+  border-color: #fefefe;
   color: #0a0a0a;
 }
 
@@ -12729,319 +12729,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   @mixin ========================================================================= */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-}
-
-/* Sections
-   @mixin ========================================================================= */
-/**
- * Remove the margin in all browsers.
- */
-body {
-  margin: 0;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-main {
-  display: block;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/* Grouping content
-   @mixin ========================================================================= */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-/* Text-level semantics
-   @mixin ========================================================================= */
-/**
- * Remove the gray background on active links in IE 10.
- */
-a {
-  background-color: transparent;
-}
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-  font-weight: bolder;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/* Embedded content
-   @mixin ========================================================================= */
-/**
- * Remove the border on images inside links in IE 10.
- */
-img {
-  border-style: none;
-}
-
-/* Forms
-   @mixin ========================================================================= */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button,
-input {
-  overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
-  text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
-  vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-[type="checkbox"],
-[type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0;
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-
-/* Interactive
-   @mixin ========================================================================= */
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-details {
-  display: block;
-}
-
-/*
- * Add the correct display in all browsers.
- */
-summary {
-  display: list-item;
-}
-
-/* Misc
-   @mixin ========================================================================= */
-/**
- * Add the correct display in IE 10+.
- */
-template {
-  display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-[hidden] {
-  display: none;
-}
-
 /* latin-ext */
 @font-face {
   font-family: 'Simonetta';
@@ -13068,7 +12755,7 @@ html, body {
 }
 
 div.header-container {
-  background: white;
+  background: #fefefe;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0;
@@ -13119,19 +12806,6 @@ svg #bote {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  /* ============
-    WIDE: Menu
-   ============ */
-  .title {
-    float: left;
-  }
-  nav {
-    float: right;
-    width: 38%;
-  }
-}
-
 ul.nav {
   margin: auto 0;
 }
@@ -13171,7 +12845,7 @@ ul.nav li.btn a {
 ul.nav li.btn a:hover, ul.nav li.btn a:active {
   background: -webkit-gradient(linear, left top, left bottom, from(#00a2b2), to(#3f5473)), #ffffff;
   background: linear-gradient(180deg, #00a2b2 0%, #3f5473 100%), #ffffff;
-  color: white;
+  color: #fefefe;
   border-color: gainsboro;
 }
 
